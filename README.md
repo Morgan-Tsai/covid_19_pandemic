@@ -11,7 +11,7 @@
 - 以 `gradio` 進行概念驗證並做出成品，並且應用到進階的程式設計與地理圖資視覺化技巧:
   - 對散佈點的大小進行了標準化調校。
   - 使用 `decorator` 更新資料篩選函數。
-- 成品能夠以 Hugging Face Spaces 網址直接訪問。
+- 成品能夠以 Hugging Face Spaces 網址直接訪問。可以透過 Hugging Face Spaces 的連結: <https://huggingface.co/spaces/Morgan2800/covid_19_pandemic> 參考成品。
 - 可以重現（Reproducible）。
 
 ## 如何重現
@@ -26,3 +26,4 @@ conda env create -f environment.yml
 - 將 `data/` 資料夾中的 4 個 CSV 檔案：`03-09-2023.csv`、`time_series_covid19_confirmed_global.csv`、`time_series_covid19_deaths_global.csv` 與 `time_series_covid19_vaccine_global.csv` 放置於專案資料夾的 `data/` 資料夾中
 - 啟動環境並執行 `python create_covid_19_db.py` 就能在 `data/` 資料夾中建立 `covid_19.db`
 - 啟動環境並執行 `python app.py` 並前往 `http://127.0.0.1:7860` 瀏覽成品。
+
